@@ -23,7 +23,7 @@ export const Main = ()=>{
 
     useEffect(() =>{
         getPosts();
-    },[])
+    },)
     return <div>
        {plist?.map((post)=><Post post={post}/>)}
     </div>

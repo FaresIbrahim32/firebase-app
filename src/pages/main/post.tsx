@@ -79,7 +79,7 @@ export const Post=(props:Props)=>{
   
     useEffect(() => {
       getLikes();
-    }, []);
+    }, );
   
     return <div>
         <div className="title"><h1>{post.title}
